@@ -1,0 +1,83 @@
+<html>
+    <body id="body">
+
+    </body>
+    <form id="form">
+
+      <!-- <button onclick=Object()>Add to list</button> -->
+    </form>
+    <button type="submit" form="form" value="Submit">Submit</button>    
+
+    <style>
+    </style>
+    <script>
+
+        var from=document.getElementById('form');
+        // from.setAttribute("action",'quizzStore.html');
+        from.setAttribute("action",'/admin');
+        from.setAttribute("method",'POST');
+
+        ///for placing the question
+        var id="Question";
+        var di=document.createElement("div");
+        var inp=document.createElement("input");
+        inp.setAttribute('type',"text");
+        inp.setAttribute('name',id);
+        inp.setAttribute('placeholder',id);
+        di.appendChild(inp);
+        from.appendChild(di);
+
+        ///for the options
+        id="Option1";
+        var di=document.createElement("div");
+        var inp=document.createElement("input");
+        inp.setAttribute('type',"text");
+        inp.setAttribute('name',id);
+        inp.setAttribute('placeholder',id);
+        di.appendChild(inp);
+        from.appendChild(di);
+
+        id="Option2";
+        var di=document.createElement("div");
+        var inp=document.createElement("input");
+        inp.setAttribute('type',"text");
+        inp.setAttribute('name',id);
+        inp.setAttribute('placeholder',id);
+        di.appendChild(inp);
+        from.appendChild(di);
+
+        id="Option3";
+        var di=document.createElement("div");
+        var inp=document.createElement("input");
+        inp.setAttribute('type',"text");
+        inp.setAttribute('name',id);
+        inp.setAttribute('placeholder',id);
+        di.appendChild(inp);
+        from.appendChild(di);
+
+        id="Option4";
+        var di=document.createElement("div");
+        var inp=document.createElement("input");
+        inp.setAttribute('type',"text");
+        inp.setAttribute('name',id);
+        inp.setAttribute('placeholder',id);
+        di.appendChild(inp);
+        from.appendChild(di);
+
+        // var datas=[];
+        // var data={};
+        // function Object()
+        // {
+        //     data={
+        //         Question:document.getElementById('Question').value,
+        //         Option1:document.getElementById('Option1').value,
+        //         Option2:document.getElementById('Option2').value,
+        //         Option3:document.getElementById('Option3').value,
+        //         Option4:document.getElementById('Option4').value
+        //     }
+        //     datas.push(data);
+        //     document.forms[0].reset();
+        // }
+
+    </script>
+</html>

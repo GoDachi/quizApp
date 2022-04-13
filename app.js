@@ -31,13 +31,3 @@ app.get("/" , (req , res) => {
 app.listen(3000 , () => {
   console.log("server is running at port 3000")
 });
-
-
-/*
-Audience/list key - 6b75a78178
-*/
-
-
-/*
-API key - b48881f4dbfe0f4336d2e4ade5d4c2b7-us14
-*/

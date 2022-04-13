@@ -1,7 +1,6 @@
 {
   "name": "quiz",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +10,16 @@
   "dependencies": {
     "body-parser": "^1.19.2",
     "express": "^4.17.3",
-    "mongodb": "^4.4.1"
-  }
+    "mongodb": "^4.4.1",
+    "mysql": "^2.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoDachi/quizApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GoDachi/quizApp/issues"
+  },
+  "homepage": "https://github.com/GoDachi/quizApp#readme",
+  "description": ""
 }
